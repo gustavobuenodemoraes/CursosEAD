@@ -17,7 +17,7 @@ namespace CursosEAD.Application.Test
         public ValidarRegraData()
         {
             var options = new DbContextOptionsBuilder<AppDbContext>()
-                            .UseInMemoryDatabase("DbCursos")
+                            .UseInMemoryDatabase("DbCursosTest")
                             .Options;
             var contexto = new AppDbContext(options);
 
