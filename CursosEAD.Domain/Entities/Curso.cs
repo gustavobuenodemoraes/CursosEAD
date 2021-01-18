@@ -37,6 +37,7 @@ namespace CursosEAD.Domain.Entities
         public void Validar(IEnumerable<Curso> cursos)
         {
             ValidarDataInicio();
+
             PeriodoValido(cursos);
         }
     }
